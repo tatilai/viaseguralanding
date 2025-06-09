@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vía Segura - Seguridad Compartida</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <a href="#">
+        <img src="img/logoprincipal.png" alt="Logo Vía Segura" class="logo" />
+      </a>
+      <button class="menu-toggle" aria-label="Abrir menú">
+        <i class="ph ph-list"></i>
+      </button>
+      <ul class="nav-links" >
+        <li><a href="#features">Beneficios</a></li>
+        <li><a href="#steps">Cómo funciona</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#descargar">Descargar</a></li>
+      </ul>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero">
+      <h1>Vía Segura</h1>
+      <p class="slogan">“Tu seguridad, nuestra prioridad compartida”.</p>
+      <div>
+        <img
+          src="img/imagen-bienvenida.svg"
+          alt="chica tocando pantalla celular"
+          class="hero-image"
+        />
+      </div>
+      <p class="intro-text">
+        <strong>Vía Segura</strong> es una app pensada para que te sientas
+        acompañado cada vez que salís. Podés compartir tu ubicación en tiempo
+        real, consultar rutas seguras y reportar incidentes al instante.
+        <br />
+        <span class="light-text"
+          >Todo desde tu celular, de forma simple y confiable. Porque moverse
+          seguro también es tu derecho.</span
+        >
+      </p>
+    </header>
+
+    <!-- CTA -->
+    <section class="cta-button" id="descargar">
+      <h2>Descargá la app gratis</h2>
+      <p>Movete con tranquilidad y seguridad.</p>
+      <a href="#" class="btn">Descargar Vía Segura</a>
+    </section>
+
+    <section class="features" id="features">
+      <h2>Beneficios de usar Vía Segura</h2>
+      <p class="features-subtitle">
+        Estas son algunas de las funciones que te ayudan a moverte con mayor
+        tranquilidad.
+      </p>
+
+      <div class="feature">
+        <i class="ph ph-warning-circle"></i>
+        <h3>Botón de pánico</h3>
+        <p>Pedí ayuda inmediata con solo un toque.</p>
+      </div>
+
+      <div class="feature">
+        <i class="ph ph-map-pin-line"></i>
+        <h3>Zonas peligrosas</h3>
+        <p>Consultá el mapa actualizado con áreas riesgosas.</p>
+      </div>
+
+      <div class="feature">
+        <i class="ph ph-users-three"></i>
+        <h3>Contactos seguros</h3>
+        <p>Notificá a quienes más confías en caso de emergencia.</p>
+      </div>
+    </section>
+
+    <section class="steps" id="steps">
+      <h2>¿Cómo funciona?</h2>
+      <div class="step-container">
+        <div class="step">
+          <img
+            src="img/icon-download.svg"
+            alt="Descargar app"
+            class="step-icon"
+          />
+          <p>Descargá la app desde la tienda</p>
+        </div>
+        <div class="step">
+          <img
+            src="img/icon-setup.svg"
+            alt="Configurá tu perfil"
+            class="step-icon"
+          />
+          <p>Configurá tu perfil y contacto</p>
+        </div>
+        <div class="step">
+          <img
+            src="img/icon-alert.svg"
+            alt="Botón de alerta"
+            class="step-icon"
+          />
+          <p>Presioná el botón de emergencia</p>
+        </div>
+        <div class="step">
+          <img
+            src="img/icon-location.svg"
+            alt="Envío de ubicación"
+            class="step-icon"
+          />
+          <p>Se comparte tu ubicación al instante</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section class="testimonios" id="testimonios">
+      <h2 class="subtitulo">Lo que dicen nuestros usuarios</h2>
+      <div class="testimonios-cards">
+        <div class="testimonio">
+          <img src="img/chica 1.jpg" alt="Avatar de Mariana" />
+          <p>"Me siento tranquila usando Vía Segura cada día."</p>
+          <span>Mariana, García</span>
+        </div>
+        <div class="testimonio">
+          <img src="img/chico 1.png" alt="Avatar de Carlos" />
+          <p>"El mapa me ayudó a evitar calles inseguras."</p>
+          <span>Carlos, Perez</span>
+        </div>
+        <div class="testimonio">
+          <img src="img/padre.png" alt="Avatar de Julio" />
+          <p>
+            "Ideal para cuando le querés avisar a tu familia que llegaste a
+            destino."
+          </p>
+          <span>Julio, Gonzalez</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter">
+      <h2>Unite a Vía Segura</h2>
+      <p>Recibí novedades y mantenete protegida/o.</p>
+      <form>
+        <input type="email" placeholder="miemail@ejemplo.com" required />
+        <button type="submit" class="btn">Suscribite</button>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <a href="#">
+            <img
+              src="img/logoprincipal.png"
+              alt="Logo Vía Segura"
+              class="logo"
+            />
+          </a>
+        </div>
+        <div class="footer-links">
+          <div>
+            <h4>Comunidad</h4>
+            <ul>
+              <li><a href="#features">Cómo funciona</a></li>
+              <li><a href="#testimonios">Testimonios</a></li>
+              <li><a href="#descargar">Descargar</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Ayuda</h4>
+            <ul>
+              <li><a href="#">Preguntas frecuentes</a></li>
+              <li><a href="#">Términos y condiciones</a></li>
+              <li><a href="#">Política de privacidad</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="social-icons">
+        <a href="https://www.instagram.com" target="_blank"
+          ><i class="ph ph-instagram-logo"></i
+        ></a>
+        <a href="https://www.facebook.com" target="_blank"
+          ><i class="ph ph-facebook-logo"></i
+        ></a>
+        <a href="https://twitter.com" target="_blank"
+          ><i class="ph ph-twitter-logo"></i
+        ></a>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Vía Segura. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script>
+      const form = document.querySelector(".newsletter form");
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const email = form.querySelector("input[type='email']").value;
+
+        if (email) {
+          alert("¡Gracias por suscribirte a Vía Segura!");
+          form.reset(); // Limpiar el campo luego del envío
+        } else {
+          alert("Por favor, ingresá un correo válido.");
+        }
+      });
+
+      const toggleBtn = document.querySelector(".menu-toggle");
+      const navLinks = document.querySelector(".nav-links");
+
+      toggleBtn.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
