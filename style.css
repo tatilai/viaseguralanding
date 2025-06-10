@@ -291,19 +291,10 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
- /* max-width: 1000px;
-  margin: 0 auto;*/
 }
 
 .step {
- /* background-color: #fff;
-  border-radius: 10px;
-  padding: 1.5em;
-  width: 200px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
-  transition: transform 0.2s ease;*/
-
-   background: #f8f9fc;
+  background: #f8f9fc;
   padding: 25px;
   border-radius: 16px;
   max-width: 250px;
@@ -316,10 +307,17 @@ body {
   transform: translateY(-5px);
 }
 
-.step-icon {
+/*.step-icon {
   width: 60px;
   height: 60px;
   margin-bottom: 15px;
+}*/
+
+.step i {
+  font-size: 40px;
+  color: #1a73e8;
+  margin-bottom: 15px;
+  display: block;
 }
 
 .step p {
