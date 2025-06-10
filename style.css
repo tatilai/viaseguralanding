@@ -106,6 +106,19 @@ body {
   background: var(--color-principal);
 }
 
+.btn-descargar {
+  background-color: var(--color-principal);
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn-descargar:hover {
+  background-color: #005fa3; /* un azul más oscuro */
+}
+
 .features {
   background-color: #f8f9fc;
   padding: 80px 20px;
