@@ -107,8 +107,8 @@ body {
 }
 
 .btn-descargar {
-  background-color: var(--color-principal);
-  color: white;
+  background-color: #e55b4d;
+  color: white !important;
   padding: 0.5em 1em;
   border-radius: 25px;
   font-weight: bold;
