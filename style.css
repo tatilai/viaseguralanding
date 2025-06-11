@@ -378,6 +378,15 @@ h1{
   text-align: center;
 }
 
+.contenedor-plan-general {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 40px;
+} 
+
 .planes-app h2 {
   font-size: 2rem;
   margin-bottom: 10px;
@@ -395,6 +404,12 @@ h1{
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
+  flex-direction: row;
+ /*  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 400px;
+  text-align: left;*/
 }
 
 .plan {
@@ -428,15 +443,23 @@ h1{
   border-radius: 25px;
   cursor: pointer;
   transition: background 0.3s ease;
+  
 }
 
 .plan button:hover {
   background: #2c65c8;
 }
-/*
-.plan.destacado {
+
+/*.plan.destacado {
   border: 2px solid #3a81f5;
 }*/
+
+
+.imagen-plan img {
+  max-width: 400px;
+ /* width: 100%;*/
+ margin-left: 20px;
+}
 
 .btn,
 .btn-destacado {
