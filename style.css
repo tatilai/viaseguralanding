@@ -96,7 +96,7 @@ body {
 
 
 .btn {
-  background: var(--color-boton);
+  background: #005fa3 !important;
   color: white;
   padding: 0.7em 1.5em;
   text-decoration: none;
@@ -107,7 +107,7 @@ body {
 }
 
 .btn:hover {
-  background: var(--color-principal);
+  background: var(--color-principal) !important;
 }
 
 .btn-descargar {
@@ -120,8 +120,25 @@ body {
 }
 
 .btn-descargar:hover {
-  background-color: #005fa3; /* un azul más oscuro */
+  background-color: #3387c2; /* un azul más oscuro */
 }
+
+.btn-suscribe{
+  background-color: whitesmoke;
+  padding: 0.5em 1em;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.btn-suscribe:hover {
+  background-color: #e55b4d; 
+  color: whitesmoke;
+}
+
 
 .features {
   background-color: #f8f9fc;
@@ -352,97 +369,73 @@ h1{
     max-width: 80%;
 }
 
-/* TESTIMONIOS 
-.testimonios {
-  padding: 80px 20px;
-  background-color: #fff;
+
+/* PLANES APP */
+.planes-app {
+  background: #e6f0ff;
+  padding: 60px 20px;
   text-align: center;
 }
 
-.testimonios .subtitulo {
+.planes-app h2 {
   font-size: 2rem;
-  margin-bottom: 40px;
-  color: #333;
-}
-
-.testimonios-cards {
-  display: grid;
-  gap: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.testimonio {
-  background: #f8f9fc;
-  padding: 25px;
-  border-radius: 30px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-  transition: transform 0.3s ease;
-}
-
-.testimonio:hover {
-  transform: translateY(-4px);
-}
-
-.testimonio img {
-  width: 60px;
-  margin-bottom: 15px;
-}
-
-.testimonio p {
-  font-style: italic;
-  color: #555;
   margin-bottom: 10px;
+  color: #1a1a1a;
 }
 
-.testimonio span {
-  font-weight: 600;
-  color: #1a73e8;
+.planes-app p {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  color: #444;
 }
-*/
-  /*planes*/
-  .planes {
-  padding: 2rem;
-  background-color: #f4f4f4;
-  text-align: center;
-  }
 
-  .planes-grid {
+.contenedor-planes {
   display: flex;
-  flex-direction: column;
-  gap: 2em;
-  margin-top: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .plan {
-    background: #fff;
-  border: 1px solid #ccc;
-  border-radius: 12px;
-  padding: 2rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  transition: transform 0.2s;
-}
-
-.plan:hover {
-  transform: translateY(-4px);
+  background: white;
+  padding: 30px 20px;
+  border-radius: 16px;
+  width: 280px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .plan h3 {
   font-size: 1.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 15px;
+  color: #003366;
 }
 
-.plan ul {
-  list-style: none;
-  padding: 0;
-  margin: 1em 0;
+.plan p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #333;
+  line-height: 1.5;
 }
 
-.plan li {
-  margin: 0.5em 0;
-   font-size: 1rem;
+.plan button {
+  padding: 10px 20px;
+  border: none;
+  background: #3a81f5;
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s ease;
 }
+
+.plan button:hover {
+  background: #2c65c8;
+}
+/*
+.plan.destacado {
+  border: 2px solid #3a81f5;
+}*/
 
 .btn,
 .btn-destacado {
