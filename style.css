@@ -1,6 +1,9 @@
 
 section{
     padding: 80px 20px;
+  /*  margin: 40px 0;
+    border-radius: 16px;*/
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
 }
 
   :root {
@@ -307,12 +310,6 @@ body {
   transform: translateY(-5px);
 }
 
-/*.step-icon {
-  width: 60px;
-  height: 60px;
-  margin-bottom: 15px;
-}*/
-
 .step i {
   font-size: 40px;
   color: #1a73e8;
@@ -354,7 +351,7 @@ h1{
     max-width: 80%;
 }
 
-/* TESTIMONIOS */
+/* TESTIMONIOS 
 .testimonios {
   padding: 80px 20px;
   background-color: #fff;
@@ -402,7 +399,83 @@ h1{
   font-weight: 600;
   color: #1a73e8;
 }
+*/
+  /*planes*/
+  .planes {
+  padding: 2rem;
+  background-color: #f4f4f4;
+  text-align: center;
+  }
 
+  .planes-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin-top: 2rem;
+}
+
+.plan {
+    background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.plan:hover {
+  transform: translateY(-4px);
+}
+
+.plan h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.plan ul {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0;
+}
+
+.plan li {
+  margin: 0.5em 0;
+   font-size: 1rem;
+}
+
+.btn,
+.btn-destacado {
+  display: inline-block;
+  padding: 0.8em 1.4em;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.btn {
+  background-color: #0055cc;
+  color: white;
+}
+
+.btn-destacado {
+  background: transparent;
+  color: #0055cc;
+  border: 2px solid #0055cc;
+}
+
+/* Responsive: 2 columnas en pantallas grandes */
+@media (min-width: 768px) {
+  .planes-grid {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .plan {
+    flex: 1;
+    max-width: 400px;
+  }
+}
 
 .footer {
   background-color: #1c1c1c;
@@ -507,10 +580,10 @@ h1{
     align-items: center;
   }
 
-  .testimonios-cards {
+  /*.testimonios-cards {
     flex-direction: column;
     align-items: center;
-  }
+  }*/
 
   .footer-container {
     flex-direction: column;
@@ -566,4 +639,10 @@ h1{
   .nav-links a {
     padding-left: 1rem; /* Evita que el texto se pegue al borde */
   }
+
+  html {
+  scroll-behavior: smooth;
+  }
+
+
 }
