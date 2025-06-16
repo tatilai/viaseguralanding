@@ -96,23 +96,24 @@ body {
 }
 
 
-.btn {
+
+
+.btn-cta{
   background: #005fa3 !important;
   color: white;
   padding: 0.7em 1.5em;
   text-decoration: none;
   display: inline-block;
   margin-top: 1em;
-  border-radius: 20px;
+  border-radius: 50px;
   transition: background-color 0.3s;
+
 }
 
-.btn:hover {
-  background: var(--color-principal) !important;
-}
+
 
 .btn-descargar {
-  background-color: #e55b4d;
+  background-color: #005fa3;
   color: white !important;
   padding: 0.5em 1em;
   border-radius: 35px;
@@ -122,7 +123,7 @@ body {
 }
 
 .btn-descargar:hover {
-  background-color: #3387c2; /* un azul más oscuro */
+  background-color: #005fa3 ; /* un azul más oscuro */
 }
 
 .btn-suscribe{
