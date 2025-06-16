@@ -551,10 +551,24 @@ h1{
   }
 
   .imagen-plan img {
-    max-width: 100%;
+   /* max-width: 100%;
     margin-left: 0;
-    margin-top: 20px;
+    margin-top: 20px;*/
+    width: 90%;            /* Usá un porcentaje en lugar de 100% para que no llegue al borde */
+    max-width: 250px;      /* Ajustá el máximo tamaño visible */
+    margin: 0 auto;
+    display: block;
   }
+
+  body {
+  overflow-x: hidden;
+}
+
+.contenedor-plan-general,
+.contenedor-planes {
+  width: 100%;
+  box-sizing: border-box;
+}
 
   .contenedor-plan-general {
     gap: 20px;
@@ -594,7 +608,7 @@ h1{
   flex-wrap: wrap;
   gap: 30px;
   flex-direction: row;
-  margin-left: 400px;
+ /* margin-left: 400px;*/
 }
 
 .plan {
