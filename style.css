@@ -232,13 +232,14 @@ body {
   transition: background-color 0.3s;
 }
 
+/*
 .cta-button:hover {
   background-color: #e55b4d;
-}
+}*/
 
 .btn-accion{
   display: inline-block;
-  background-color: #0071D9;
+  background-color: #3082e3;
   color: white;
   padding: 12px 24px;
   border-radius: 50px;
@@ -254,7 +255,7 @@ body {
 
 
 .btn-cta{
-  background: #005fa3 !important;
+  background: #3082e3 !important;
   color: white;
   padding: 0.7em 1.5em;
   text-decoration: none;
@@ -268,7 +269,7 @@ body {
 
 
 .btn-descargar {
-  background-color: #005fa3;
+  background-color: #3082e3;
   color: white !important;
   padding: 0.5em 1em;
   border-radius: 35px;
