@@ -302,6 +302,29 @@ body {
   margin-top: 30px;
 }
 
+.features-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.features-illu {
+  flex: 1 1 300px;
+ /* text-align: center;*/
+  float: left;
+}
+
+.features-illu img {
+  max-width: 100%;
+  height: auto;
+}
+
+.features-content {
+  flex: 2 1 500px;
+}
 
 .features {
   background-color: #f8f9fc;
@@ -311,7 +334,7 @@ body {
 
 .features-grid {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   gap: 20px;
   margin-top: 40px;
@@ -516,15 +539,6 @@ p {
   font-weight: 400; /* Normal */
 }
 
-.slogan{
-   /* font-size: 1.6rem;
-    font-weight: 500;
-    margin-top: 50px;
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: #0066cc;
-  margin-bottom: 20px;*/
-}
 
 h1{
     font-size: 80px;
@@ -552,9 +566,6 @@ h1{
   }
 
   .imagen-plan img {
-   /* max-width: 100%;
-    margin-left: 0;
-    margin-top: 20px;*/
     width: 90%;            /* Usá un porcentaje en lugar de 100% para que no llegue al borde */
     max-width: 250px;      /* Ajustá el máximo tamaño visible */
     margin: 0 auto;
@@ -576,10 +587,35 @@ h1{
   }
 }
 
-.planes-app {
-  background: #e6f0ff;
-  padding: 60px 20px;
+.planes-texto {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.planes-texto h2,
+.planes-texto p {
   text-align: center;
+  margin-left: 40px;
+}
+
+.planes-texto h2 {
+  font-size: 2rem;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+.planes-texto p {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.planes-app {
+ /* background: #e6f0ff;
+  padding: 60px 20px;
+  text-align: center;*/
+  background: #e6f0ff;
+  padding: 80px 20px 60px 20px;
 }
 
 .contenedor-plan-general {
@@ -692,6 +728,20 @@ h1{
   .plan {
     flex: 1;
     max-width: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  .planes-app {
+    text-align: left;
+    
+  }
+
+  .planes-app h2,
+  .planes-app p {
+    margin-left: 60px;
+
+   /* o lo que necesites para que quede alineado con las cajas */
   }
 }
 
